@@ -22,6 +22,12 @@ const nextConfig = {
       },
 			{
         protocol: "https",
+        hostname: "pbxt.replicate.delivery",
+        port: "",
+        pathname: "**",
+      },
+			{
+        protocol: "https",
         hostname: "a16z.com",
         port: "",
         pathname: "**",
